@@ -1,0 +1,8 @@
+.idea
+.DS_Store
+composer.lock
+*.log
+.env
+vendor/
+.php_cs.cache
+.vscode/

@@ -1,0 +1,28 @@
+{
+  "name": "tvb-sz/tvbgo-scan-login-php-sdk",
+  "description": "TVB Go OAuth 掃碼登錄 PHP SDK",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "keywords": [
+    "tvbgo",
+    "oauth",
+    "scan-login"
+  ],
+  "homepage": "https://github.com/tvb-sz/tvbgo-scan-login-php-sdk",
+  "authors": [
+    {
+      "name": "tvb-sz",
+      "homepage": "https://github.com/tvb-sz"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "6.*|7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "TvbGo\\": "src/"
+    }
+  }
+}
